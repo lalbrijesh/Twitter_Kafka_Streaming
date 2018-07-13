@@ -11,7 +11,8 @@ Before running the python application start ZooKeeper and Kafka then create your
 Use the following commands: (on Windows platform)<br/>
 Start the zkServer (zookeeper)<br/>
 >kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic first-topic<br/>
-<br/>(first-topic is the topic named created)<br/>
+
+first-topic is the topic named created which is used in the python application<br/>
 
 Update your twitter application credentials in twitter_credentials.txt<br/>
 Now, run the python application.<br/>

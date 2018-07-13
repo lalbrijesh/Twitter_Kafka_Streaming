@@ -1,7 +1,7 @@
 """
 Created on Fri Jun 22 06:53:12 2018
 
-@author: lalbrijesh 
+@author: lalbrijesh
 """
 
 from kafka import KafkaClient, SimpleProducer
